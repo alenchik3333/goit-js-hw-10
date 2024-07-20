@@ -4,30 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snackbar</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css">
     <script type="module" defer src="./js/2-snackbar.js"></script>
   </head>
   <body>
     <a class="nav__link" href="./index.html">Home</a>
     <form class="form">
-      <label>
+      <label class="delay">
         Delay (ms)
-        <input type="number" name="delay" required />
+        <input class="input-snackbar" type="number" name="delay" required />
       </label>
     
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>State</legend>
         <label>
-          <input type="radio" name="state" value="fulfilled" required />
+          <input class="input-label" type="radio" name="state" value="fulfilled" required />
           Fulfilled
         </label>
         <label>
-          <input type="radio" name="state" value="rejected" required />
+          <input class="input-label" type="radio" name="state" value="rejected" required />
           Rejected
         </label>
       </fieldset>
     
-      <button type="submit">Create notification</button>
+      <button class="btn-fieldset" type="submit">Create notification</button>
     </form>    
   </body>
 </html>

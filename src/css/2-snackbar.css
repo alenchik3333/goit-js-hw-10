@@ -1,0 +1,48 @@
+.form {
+    width: 360px;
+    margin-top: 36px;
+    margin-left: 156px;
+}
+
+.delay {
+    display: grid;
+}
+
+.input-snackbar {
+    /* width: 360px; */
+    height: 40px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border-color: #808080;
+}
+
+.input-snackbar:hover {
+    border-color: #000000;
+}
+
+.input-snackbar:active {
+    border-color: #4E75FF;
+}
+
+.fieldset {
+    /* width: 360px; */
+    height: 78px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+}
+
+.input-label {
+    
+}
+
+.btn-fieldset {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 360px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: #4E75FF;
+    color: #FFFFFF;
+}
