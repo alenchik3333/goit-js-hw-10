@@ -4,34 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snackbar</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     
     
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js"></script>
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/vendor-77e16229.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
     <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
-    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-dc884cbf.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-d3322eae.css">
   </head>
   <body>
     <a class="nav__link" href="./index.html">Home</a>
     <form class="form">
-      <label>
+      <label class="delay">
         Delay (ms)
-        <input type="number" name="delay" required />
+        <input class="input-snackbar" type="number" name="delay" required />
       </label>
     
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>State</legend>
         <label>
-          <input type="radio" name="state" value="fulfilled" required />
+          <input class="input-label" type="radio" name="state" value="fulfilled" required />
           Fulfilled
         </label>
         <label>
-          <input type="radio" name="state" value="rejected" required />
+          <input class="input-label" type="radio" name="state" value="rejected" required />
           Rejected
         </label>
       </fieldset>
     
-      <button type="submit">Create notification</button>
+      <button class="btn-fieldset" type="submit">Create notification</button>
     </form>    
   </body>
 </html>
