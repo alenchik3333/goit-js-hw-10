@@ -4,38 +4,46 @@
 
 .input-btn {
     width: 272px;
-height: 40px;
+    height: 40px;
     margin-top: 40px;
     margin-left: 156px;
     border-color: #808080;
     border-radius: 8px;
 }
 
-.input-btn:hover,
-.input-btn:focus {
+.input-btn:hover {
     border-color: #000000;
+}
+
+.input-btn:focus,
+.input-btn:active {
+    border-color: #4E75FF;
 }
 
 .btn {
     width: 75px;
     height: 40px; 
-    background-color: #CFCFCF;
-    color: #989898;
+    background-color: #4E75FF;
+    color: #FFFFFF;
     border: none;
     border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: #6C8CFF;
+}
+
+.btn:disabled {
+    background-color: #CFCFCF;
 }
 
 .timer {
     display: flex;
     gap: 24px;
-width: 346px;
-height: 72px;
-margin-top: 40px;
-margin-left: 156px;
-
-
-
-    background-color: blue;
+    width: 346px;
+    height: 72px;
+    margin-top: 40px;
+    margin-left: 156px;
 }
 
 .value {
