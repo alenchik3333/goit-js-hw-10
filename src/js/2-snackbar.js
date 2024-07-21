@@ -26,14 +26,13 @@ form.addEventListener('submit', (evt) => {
                 });
             }).catch(ex => {
                 iziToast.error({
-                    message: `✅ Fulfilled promise in ${elements.inputSnackbar.value}ms`,
+                    message: `❌ Rejected promise in ${elements.inputSnackbar.value}ms`,
                     position: 'topRight'
                 });
             })
             break;
         }
     }
-    
 });
 
 
